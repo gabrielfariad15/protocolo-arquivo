@@ -1,0 +1,16 @@
+# sistema e editor
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# pasta temporaria que o pac cria ao desempacotar
+*.tmp
+/tmp/
+
+# o plano da candidatura fica so na maquina: fala da vaga e do curriculo
+documentacao/Protocolo-de-Arquivo-projeto.pdf
+
+# credenciais e perfis locais do pac: nunca vao para o repositorio
+*.env
+.env*
+authprofiles*.json
